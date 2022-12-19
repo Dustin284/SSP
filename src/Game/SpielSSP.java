@@ -23,7 +23,8 @@ public class SpielSSP {
 
         do {
             //Anweisung
-            //for debug: System.out.println("Punkte PC: " + punktePC + " Punkte Spieler: " + punkteSpieler);
+            //for debug:
+            System.out.println("Punkte PC: " + punktePC + " Punkte Spieler: " + punkteSpieler);
             System.out.println(" ");
             System.out.println("Was nimmst du? Papier (P), Stein (S) oder Schere (X)?");
             String eingabe = scanner.nextLine().toUpperCase();
